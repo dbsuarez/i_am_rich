@@ -23,7 +23,8 @@ class MyApp extends StatelessWidget {
         ),
         body: const Center(
           child: Image(
-            image: NetworkImage('https://appwrite.io/images-ee/hero-light.png'),
+            // image: NetworkImage('https://appwrite.io/images-ee/hero-light.png'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
